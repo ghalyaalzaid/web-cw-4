@@ -1,12 +1,18 @@
 body {
   /* المطلوب الأول هنا */
   text-align: center;
+  font-family: 'cairo';
+  background-image: url('./img/kuwaitcodes.png');
+  
+
 }
 .card {
   /* المطلوب الثاني هنا */
   width: 400px;
   height: 500px;
   background-color: white;
+  box-shadow: 10px 10px 10px #52514e;
+  border-radius: 12px;
 }
 
 img {
@@ -14,6 +20,8 @@ img {
   width: 120px;
   height: 120px;
   margin-top: 20px;
+  box-shadow: 10px 10px 10px #52514e;
+  border-radius: 50%;
 }
 
 .center {
@@ -26,6 +34,7 @@ img {
 }
 
 ul {
+  list-style-type: none;
   padding: 0;
   margin: 0;
   display: inline-block;
@@ -35,3 +44,9 @@ a {
   text-decoration: none;
   color: black;
 }
+h3:hover {
+text-shadow: 12px 12px 12px #72716c; 
+}
+
+
+
